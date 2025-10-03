@@ -3,7 +3,7 @@
 "id": "specifier-legacy",
 "name": "Specifier Legacy",
 "category": "System Utilities",
-"appIconUrl": "https://private-user-images.githubusercontent.com/97623785/326259988-f0e561de-e492-47e0-b617-5635ef7edb5e.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTkzNTcwMTgsIm5iZiI6MTc1OTM1NjcxOCwicGF0aCI6Ii85NzYyMzc4NS8zMjYyNTk5ODgtZjBlNTYxZGUtZTQ5Mi00N2UwLWI2MTctNTYzNWVmN2VkYjVlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDAxVDIyMTE1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgwYzA1YWQxOGFiNWI3YmQ0Y2ZkY2NlMzRmYzg3YTA0YWUyZGVlMDNlZDc1MWZhN2VmMjAxMWM0OTcwN2Y5NmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.3laJm8QSvZ6GflYh98N-wikvJ4fvf8UXl0yCTh2SzsM",
+"appIconUrl": "/images/spec.png",
 "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
 "platforms": ["mac"],
 "description": "A simple program written in AppleScript that gives detailed information about your Mac.",
