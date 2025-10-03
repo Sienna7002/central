@@ -3,7 +3,7 @@
 "id": "specifier-legacy",
 "name": "Specifier Legacy",
 "category": "System Utilities",
-"appIconUrl": "/images/spec.png",
+"appIconUrl": "https://sienna7002.github.io/central/images/spec.png",
 "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
 "platforms": ["mac"],
 "description": "A simple program written in AppleScript that gives detailed information about your Mac.",
