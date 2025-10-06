@@ -1480,6 +1480,11 @@
                 grid-column: span 1;
             }
 
+            .nav-logo {
+                font-size: 18px;
+                white-space: nowrap;
+            }
+
             .hero-section h1 {
                 font-size: 40px;
             }
@@ -2644,9 +2649,14 @@
                 `<span class="platform-badge">${getPlatformDisplay([p])[0]}</span>`
             ).join('');
 
+            // Generate initials if no icon URL
+            const generateInitials = (name) => {
+                return name.split(' ').map(word => word[0]).join('').toUpperCase().slice(0, 2);
+            };
+            
             const appIconContent = app.appIconUrl 
                 ? `<img src="${app.appIconUrl}" alt="${app.name} Icon">`
-                : app.icon;
+                : generateInitials(app.name);
             
             const iconStyle = app.appIconUrl ? '' : `style="background: ${app.gradient}"`;
 
@@ -2717,9 +2727,14 @@
                 `<span class="platform-badge">${getPlatformDisplay([p])[0]}</span>`
             ).join('');
             
+            // Generate initials if no icon URL
+            const generateInitials = (name) => {
+                return name.split(' ').map(word => word[0]).join('').toUpperCase().slice(0, 2);
+            };
+            
             const detailAppIconContent = app.appIconUrl 
                 ? `<img src="${app.appIconUrl}" alt="${app.name} Icon">`
-                : app.icon;
+                : generateInitials(app.name);
             
             const detailIconStyle = app.appIconUrl ? '' : `style="background: ${app.gradient}"`;
 
@@ -2963,12 +2978,7 @@
                 
                 // Add mobile-specific event listeners
                 if (window.innerWidth <= 768) {
-                    // Handle virtual keyboard on mobile
-                    messageInput.addEventListener('focus', function() {
-                        setTimeout(() => {
-                            scrollToBottom(true);
-                        }, 300);
-                    });
+                    // Mobile-specific handling (auto-scroll removed)
                     
                     // Detect virtual keyboard
                     let initialViewportHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;

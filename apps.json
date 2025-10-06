@@ -18,5 +18,42 @@
 "downloadUrl": "https://github.com/Sienna7002/Specifier/releases/download/Release_2.2.1/specifier221.dmg",
 "githubUrl": "https://github.com/Sienna7002/Specifier",
 "fileSize": "2.5 MB"
+},
+{
+"id": "metal-hud-utility",
+"name": "Metal HUD Utility",
+"category": "System Utilities",
+"appIconUrl": "https://sienna7002.github.io/central/images/metal.png",
+"gradient": "linear-gradient(135deg, #74b9ff 0%, #0984e3 100%)",
+"platforms": ["mac"],
+"description": "A simple Swift application that allows you to permanently and easily enable and disable Apple's Metal HUD which ships with macOS.",
+"longDescription": "Metal HUD Utility is a simple Swift application that allows you to permanently and easily enable and disable Apple's Metal HUD which ships with macOS.\n\nFeatures:\n• Simple interface with toggle\n• A simple Metal demo to test the Metal HUD\n• Easy enable/disable functionality for Apple's built-in Metal performance overlay",
+"version": "v1.0",
+"supportedOS": "macOS with Metal support",
+"systemRequirements": [
+"macOS with Metal graphics support",
+"Any Mac with dedicated or integrated graphics supporting Metal"
+],
+"downloadUrl": "https://github.com/Sienna7002/MetalHUDUtility/releases/download/1.0/Metal.HUD.Utility.zip",
+"githubUrl": "https://github.com/Sienna7002/MetalHUDUtility",
+"fileSize": "N/A"
+},
+{
+"id": "windows-7-essential-updates",
+"name": "Windows 7 Essential Updates Installer",
+"category": "System Utilities",
+"gradient": "linear-gradient(135deg, #fd79a8 0%, #e84393 100%)",
+"platforms": ["windows"],
+"description": "The Windows 7 Essential Updates installer does what it says - it installs .msu files and also the Windows Update Agent.",
+"longDescription": "The Windows 7 Essential Updates installer is a utility designed to help maintain Windows 7 systems by installing essential updates and the Windows Update Agent.\n\nFeatures:\n• Installs essential .msu update files\n• Updates the Windows Update Agent\n• Simple interface for easy operation\n• Helps keep legacy Windows 7 systems updated",
+"version": "v2.0",
+"supportedOS": "Windows 7",
+"systemRequirements": [
+"Windows 7 (any edition)",
+"Administrator privileges recommended"
+],
+"downloadUrl": "https://sienna7002.github.io/central/dl/w7upd/W7UPD2.zip",
+"githubUrl": "https://github.com/Sienna7002/windows-7-essential-updates-installer",
+"fileSize": "N/A"
 }
 ]
